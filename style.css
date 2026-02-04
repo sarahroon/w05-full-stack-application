@@ -45,3 +45,8 @@ form button {
   margin-top: 20px;
   cursor: pointer;
 }
+
+html, body {
+  height: 100%;
+  overflow-y: auto;
+}
