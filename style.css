@@ -45,16 +45,3 @@ form button {
   margin-top: 20px;
   cursor: pointer;
 }
-
-.listing {
-  border-bottom: 1px solid ##e5e7eb;
-  padding: 15px 0;
-}
-
-.listing:last-child {
-  border-bottom: none;
-}
-
-.listing h3 {
-  margin: 0 0 5px;
-}
