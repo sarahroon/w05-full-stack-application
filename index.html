@@ -7,13 +7,24 @@
     <title>client</title>
   </head>
   <body>
-    <nav>
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/contact">Contact</a>
+    <nav aria-label="Site navigation">
+      <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/contact">Contact</a></li>
   </nav>
-
-  <h1>Home Page</h1>    <div id="app"></div>
-<script type="module" src="/src/main.js"></script>
+    <div id="Home"></div>
+ <section aria-label="Home">
+   <h1>Home</h1>
+   <p>This is an accessible Home Page where you can browse information about our site.</p>
+  <section aria-label="About">
+      <h2>About</h2>
+      <p>This is an accessible About Page where you can browse information about our site and our listings.</p>
+    </section>
+<section aria-label="Contact">
+      <h3>Contact</h3>
+      <p>This is an accessible Contact Page where you can browse our Contact information.</p>
+    </section>   
+   <script type="module" src="/src/main.js"></script>
 </body>
 </html>
