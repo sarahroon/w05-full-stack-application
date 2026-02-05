@@ -59,7 +59,7 @@ nav a:focus {
 a:focus,
 button:focus,
 input:focus {
-  outline: 3px solid #007BFF;
+  outline: 3px solid #FFEA00;
   outline-offset: 2px;
 }
 
@@ -74,7 +74,7 @@ p {
 main {
   max-width: 800px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 15px;
 }
 
 section {
@@ -83,7 +83,9 @@ section {
 
 @media (min-width: 600px) {
   nav {
-    padding: 15px;
+    background: #D1D1D1;
+    padding: 10px;
+    border-bottom: 3px solid #3A3A3A;
   }
 
   main {
@@ -99,7 +101,7 @@ section {
   }
 
   nav li {
-    margin: 0;
+    padding: 6px 0;
   }
 
   main {
@@ -117,6 +119,12 @@ section {
 
   h2 {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    font-size: 18px;
   }
 }
 
