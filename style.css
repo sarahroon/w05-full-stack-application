@@ -97,10 +97,6 @@ section {
     align-items: center;
   }
 
-  nav a {
-    margin-right: 0;
-  }
-
   main {
     max-width: 1100px;
     padding: 30px;
