@@ -37,7 +37,6 @@ nav a {
 
 nav a:hover,
 nav a:focus {
-  text-decoration: underline;
   outline: 3px solid #FFEA00;
   outline-offset: 2px;
 }
@@ -91,11 +90,6 @@ section {
     padding: 10px;
     border-bottom: 3px solid #3A3A3A;
   }
-
-  main {
-    padding: 20px;
-  }
-}
 
 @media (min-width: 900px) {
   nav ul {
