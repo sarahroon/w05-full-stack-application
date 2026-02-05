@@ -23,6 +23,8 @@ nav a {
 .skip-link:focus {
   left: 10px;
   top: 10px;
+  border-radius: 2px;
+  font-weight: bold;
 }
 
 a:focus,
