@@ -92,10 +92,15 @@ main {
   nav ul {
     display: flex;
     gap: 25px;
+    align-items: center;
   }
 
   nav li {
     margin-bottom: 0;
+  }
+
+  nav a {
+    margin-right: 0;
   }
 
   main {
