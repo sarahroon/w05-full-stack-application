@@ -74,6 +74,10 @@ main {
   padding: 10px;
 }
 
+section {
+  margin-bottom: 20px;
+}
+
 @media (min-width: 600px) {
   nav {
     padding: 15px;
@@ -109,7 +113,6 @@ main {
   }
 
   section {
-    margin-bottom: 20px;
     padding: 10px 0;
   }
 
