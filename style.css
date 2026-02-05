@@ -7,6 +7,7 @@ body {
   background: #F7F7F7;
   font-family: Arial, sans-serif;
   font-size: 18px;
+}
 
 nav {
   background: #1F2937;
@@ -60,12 +61,6 @@ button:focus,
 input:focus {
   outline: 3px solid #007BFF;
   outline-offset: 2px;
-}
-
-body {
-  color: #111;
-  background: #f6f6f6;
-  font-family: Arial, sans-serif;
 }
 
 p {
