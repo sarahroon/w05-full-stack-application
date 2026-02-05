@@ -2,23 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Client</title>
   </head>
+  
   <body>
-
     <a href="#main" class="skip-link">Skip to main content</a>
     
     <nav aria-label="Site navigation">
       <ul role="list">
-    <li role="listitem"><a href="/">Home</a></li>
-    <li role="listitem"><a href="/about">About</a></li>
-    <li role="listitem"><a href="/contact">Contact</a></li>
-   </ul>
+        <li>a href="/" aria-current="page">Home</a></li>
+        <li>a href="/about">About</a></li>
+        <li>a href="/contact">Contact</a></li>
+      </ul>
   </nav>
     
-<main id="main" role="main">
+<main id="main">
  <section role="region" aria-labelledby="home-heading">
    <h1 id="home-heading">Home</h1>
    <p>This is an accessible Home Page where you can browse information about our site.</p>
@@ -30,7 +29,7 @@
     </section>
   
 <section role="region" aria-labelledby="contact-heading">
-    <h3 id="contact-heading">Contact</h3>
+    <h2 id="contact-heading">Contact</h2>
       <p>This is an accessible Contact Page where you can browse our Contact information.</p>
     </section>
 </main>
