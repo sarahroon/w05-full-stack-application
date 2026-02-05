@@ -17,6 +17,8 @@ nav a {
   color: white;
   margin-right: 15px;
   text-decoration: none;
+  padding: 8px 0;
+  display: inline-block;
 }
 
 nav a:hover,
