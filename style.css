@@ -103,5 +103,15 @@ main {
 
   section {
     margin-bottom: 20px;
+    padding: 10px 0;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
   }
 }
+
