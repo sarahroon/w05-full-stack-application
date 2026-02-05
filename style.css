@@ -9,6 +9,11 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+}
+
 .skip-link {
   position: absolute;
   left: -999px;
