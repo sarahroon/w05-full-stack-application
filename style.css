@@ -87,8 +87,6 @@ section {
 }
 
 @media (min-width: 900px) {
-  }
-
   nav ul {
     display: flex;
     gap: 25px;
